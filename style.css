@@ -1,0 +1,33 @@
+.pop1 {
+     border-collapse: separate;
+     empty-cells: hide;
+     caption-side: top;
+}
+
+.pop2 {
+     border-collapse: separate;
+     empty-cells: show;
+     caption-side: bottom;
+}
+
+.pop3 {
+     border-collapse: collapse;
+     empty-cells: show;
+     caption-side: top;
+}
+
+.pop4 {
+     border-collapse: collapse;
+     empty-cells: hide;
+     caption-side: bottom;
+}
+
+tr {
+     border: 1px solid black;
+     height: 20px;
+}
+
+td {
+     border: 1px solid black;
+     width: 40px;
+}
